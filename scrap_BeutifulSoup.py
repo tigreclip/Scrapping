@@ -30,6 +30,6 @@ titulo = sopa.find('h1').get_text()
 transcripcion = sopa.find('div', class_ = "full-script").get_text(strip = True, separator = ' ')
 
 # Crear archivo de texto y llenarlo con el contenido de transcripcion
-with open(f'{titulo}.txt', 'w') as file:
+with open(f'{titulo}.txt', 'w', encoding="utf-8") as file:
     file.write(transcripcion)
 
