@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21c09948-a6a6-4a76-9ee8-e3d04c33efa0" name="Changes" comment="descargar texto de una web y eleminar espacios">
-      <change beforePath="$PROJECT_DIR$/scrap_BeutifulSoup.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrap_BeutifulSoup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
