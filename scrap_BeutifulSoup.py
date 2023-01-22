@@ -28,5 +28,8 @@ caja = sopa.find('article', class_ = 'plot')
 titulo = sopa.find('h1').get_text()
 # strip=True -> elimina los espacios al principio y al final del string al poner como separador ' '
 transcripcion = sopa.find('div', class_ = "full-script").get_text(strip = True, separator = ' ')
-print(titulo)
-print(transcripcion)
+
+# Crear archivo de texto y llenarlo con el contenido de transcripcion
+with open(f'{titulo}.txt', 'w') as file:
+    file.write(transcripcion)
+
