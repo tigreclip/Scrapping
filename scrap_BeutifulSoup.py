@@ -32,4 +32,3 @@ transcripcion = sopa.find('div', class_ = "full-script").get_text(strip = True, 
 # Crear archivo de texto y llenarlo con el contenido de transcripcion
 with open(f'{titulo}.txt', 'w') as file:
     file.write(transcripcion)
-
